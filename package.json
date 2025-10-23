@@ -1,6 +1,7 @@
 {
   "name": "wishlist",
   "version": "0.1.0",
+  "homepage": "https://torry455.github.io/wishlist",
   "private": true,
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
@@ -20,7 +21,6 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://torry455.github.io/wishlist",
 
   "scripts": {
     "start": "react-scripts start",
