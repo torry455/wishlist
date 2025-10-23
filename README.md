@@ -1,12 +1,12 @@
-# 🎁 Demo WishList
+# Demo WishList
 
 A responsive CRUD React application for managing personal wishes.
 
-## 🚀 Live Demo
+## Live Demo
 
 🔗 [View on GitHub Pages](https://your-username.github.io/your-repo-name)
 
-## 📦 Tech Stack
+## Tech Stack
 
 - React (latest version)
 - TypeScript
@@ -15,7 +15,7 @@ A responsive CRUD React application for managing personal wishes.
 - Custom hooks
 - Fake REST API: [json-server](https://github.com/typicode/json-server)
 
-## ✨ Features
+## Features
 
 - Add, update, delete wishes (CRUD)
 - Sort by creation date (newest / oldest)
@@ -28,7 +28,7 @@ A responsive CRUD React application for managing personal wishes.
 - Success/error snackbars for all API requests
 - Responsive design (min width: 320px)
 
-## 📁 App Structure
+## App Structure
 
 - **Dashboard**: filters, add button, grid of wish cards
 - **WishCard**: image, title, description, price, action buttons
