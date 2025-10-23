@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <div className="dark bg-[#0f0f1a] text-white min-h-screen font-sans">
       <WishProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/wishlist">
           <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <Routes>
               <Route path="/" element={<Dashboard />} />

@@ -5,6 +5,7 @@ import { ConfirmModal } from '../assets/components/ConfirmModal';
 import { WishContext } from '../context/WishContext';
 import { Wish } from '../types/wish';
 import { WishModalForm } from '../assets/components/WishModalForm';
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard: React.FC = () => {
   const { wishes, deleteWish, updateWish, addWish } = useContext(WishContext);
@@ -14,6 +15,8 @@ const Dashboard: React.FC = () => {
 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
+  const navigate = useNavigate();
+
 
 const sortedWishes = useMemo(() => {
   return [...wishes].sort((a, b) => {
@@ -91,7 +94,8 @@ const handleSortChange = (type: 'date' | 'price', value: string) => {
         onDelete={handleDeleteWish}
         onUpdate={handleUpdateWish}
         onDetails={(id) => {
-          window.location.href = `/wish/${id}`;
+          navigate(`/wish/${id}`);
+
         }}
       />
 
