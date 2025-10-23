@@ -4,7 +4,7 @@ A responsive CRUD React application for managing personal wishes.
 
 ## Live Demo
 
-🔗 [View on GitHub Pages](https://your-username.github.io/your-repo-name)
+🔗 [View on GitHub Pages](https://torry455.github.io/wishlist/)
 
 ## Tech Stack
 
@@ -37,5 +37,34 @@ A responsive CRUD React application for managing personal wishes.
 - **WishModalForm**: form with prefilled data for editing
 - **ConfirmModal**: yes/no confirmation before deletion
 
+
+▶️ How to Run the Project Locally
+To launch the WishList app:
+
+1. 	Clone the repository
+Open your terminal and run:
+
+git clone https://github.com/torry455/wishlist.git
+cd wishlist
+
+3. 	Install dependencies
+
+npm install
+
+
+5. 	Start the local API server
+The app uses  to simulate a backend. Run:
+
+npm run server
+
+
+3. 	This will start the API at .
+4. 	Start the React app
+In a separate terminal window or tab, run:
+
+npm start
+
+
+4. 	The app will open in your browser at http://localhost:3000.
 
 
