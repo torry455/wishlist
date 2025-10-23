@@ -1,0 +1,150 @@
+{
+  "wishes": [
+    {
+      "id": "1",
+      "title": "Trip to South Korea",
+      "description": "Trip to South Korea",
+      "image": "https://i.pinimg.com/736x/c9/12/4a/c9124a4b627305d59956db9973daaded.jpg",
+      "price": 3000,
+      "createdAt": "2025-10-15T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "PS5",
+      "description": "PS5",
+      "image": "https://i.pinimg.com/1200x/96/70/43/967043a278326a8d08c2d2c7fcfa1fff.jpg",
+      "price": 500,
+      "createdAt": "2025-10-16T14:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Stray Kids concert",
+      "description": "Stray Kids concert",
+      "image": "https://i.pinimg.com/736x/30/bb/e3/30bbe325f8a3d1cca114773712d3ed22.jpg",
+      "price": 1000,
+      "createdAt": "2025-10-17T09:15:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Dog",
+      "description": "To adopt the dog",
+      "image": "https://i.pinimg.com/736x/bc/4a/53/bc4a531e39012150df97bd276259b526.jpg",
+      "price": 0,
+      "createdAt": "2025-10-18T17:45:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Art lesson",
+      "description": "Art lesson",
+      "image": "https://i.pinimg.com/1200x/25/7c/5e/257c5e6bfbaddd78f8620439653a7928.jpg",
+      "price": 50,
+      "createdAt": "2025-10-19T11:20:00Z"
+    },
+    {
+      "id": "a5a525a7-bc6e-4413-9289-ef6ffafadef8",
+      "title": "Flins",
+      "description": "Genshin Impact character",
+      "image": "https://i.pinimg.com/736x/e3/bc/b2/e3bcb23d7d0b467668ff92e34927f5a4.jpg",
+      "price": 0,
+      "createdAt": "2025-10-21T11:50:06.170Z"
+    },
+    {
+      "id": "f0086488-3bcd-4099-92fb-6ef629450c69",
+      "title": "Moleskine Notebook",
+      "description": "A classic black Moleskine for sketching and journaling",
+      "image": "https://i.pinimg.com/736x/4e/0e/04/4e0e047182b54c9f4fd6436971b8efe6.jpg",
+      "price": 35,
+      "createdAt": "2025-10-23T09:36:24.453Z"
+    },
+    {
+      "id": "46946839-5f45-43a5-9b59-292839b841c5",
+      "title": "Monstera Plant",
+      "description": "A lush Monstera deliciosa to brighten the room",
+      "image": "https://i.pinimg.com/736x/3f/2b/3b/3f2b3b6f3b3f3b6f3b3f3b6f3b3f3b6f.jpg",
+      "price": 55,
+      "createdAt": "2025-10-23T09:36:32.977Z"
+    },
+    {
+      "id": "7bfc1697-e6c7-4c06-a305-84450d8eb91b",
+      "title": "Book: Atomic Habits",
+      "description": "A powerful book on building good habits",
+      "image": "https://i.pinimg.com/736x/1a/2b/3c/1a2b3c4d1a2b3c4d1a2b3c4d1a2b3c4d.jpg",
+      "price": 35,
+      "createdAt": "2025-10-23T09:36:48.028Z"
+    },
+    {
+      "id": "b84cae94-947e-4f2b-9cf9-3e4720fbdf66",
+      "title": "Scented Candle",
+      "description": "Lavender & vanilla candle for cozy evenings",
+      "image": "https://i.pinimg.com/736x/5a/6b/7c/5a6b7c8d5a6b7c8d5a6b7c8d5a6b7c8d.jpg",
+      "price": 45,
+      "createdAt": "2025-10-23T09:36:55.731Z"
+    },
+    {
+      "id": "5ce8aa4d-46c2-4d94-b351-bff26f7ebd22",
+      "title": "Succulent Trio",
+      "description": "Three mini succulents in ceramic pots",
+      "image": "https://i.pinimg.com/736x/6a/7b/8c/6a7b8c9d6a7b8c9d6a7b8c9d6a7b8c9d.jpg",
+      "price": 20,
+      "createdAt": "2025-10-23T09:37:03.475Z"
+    },
+    {
+      "id": "c2f43a5f-ed4e-42e9-add9-062eaf44ce68",
+      "title": "Sketchbook",
+      "description": "Hardcover sketchbook with thick paper",
+      "image": "https://i.pinimg.com/736x/7a/8b/9c/7a8b9c0d7a8b9c0d7a8b9c0d7a8b9c0d.jpg",
+      "price": 30,
+      "createdAt": "2025-10-23T09:37:13.016Z"
+    },
+    {
+      "id": "8e17ed77-a96e-4503-a055-635ce0e60905",
+      "title": "Desk Organizer",
+      "description": "Minimalist wooden organizer for pens and notes",
+      "image": "https://i.pinimg.com/736x/9a/ab/bc/9aabbc2e9aabbc2e9aabbc2e9aabbc2e.jpg",
+      "price": 34,
+      "createdAt": "2025-10-23T09:37:29.176Z"
+    }
+,
+    {
+  "id": "e1a2b3c4-d5f6-7890-abcd-ef1234567890",
+  "title": "Bluetooth Headphones",
+  "description": "Wireless over-ear headphones for focus and music",
+  "image": "https://i.pinimg.com/736x/1c/2d/3e/1c2d3e4f1c2d3e4f1c2d3e4f1c2d3e4f.jpg",
+  "price": 120,
+  "createdAt": "2025-10-23T13:55:00.000Z"
+},
+{
+  "id": "f2b3c4d5-e6f7-8901-bcde-fa2345678901",
+  "title": "Digital Drawing Tablet",
+  "description": "A compact tablet for digital illustration and design",
+  "image": "https://i.pinimg.com/736x/2d/3e/4f/2d3e4f5g2d3e4f5g2d3e4f5g2d3e4f5g.jpg",
+  "price": 250,
+  "createdAt": "2025-10-23T13:56:00.000Z"
+},
+{
+  "id": "g3c4d5e6-f7a8-9012-cdef-ab3456789012",
+  "title": "Korean Skincare Set",
+  "description": "Gentle and hydrating skincare essentials",
+  "image": "https://i.pinimg.com/736x/3e/4f/5g/3e4f5g6h3e4f5g6h3e4f5g6h3e4f5g6h.jpg",
+  "price": 60,
+  "createdAt": "2025-10-23T13:57:00.000Z"
+},
+{
+  "id": "h4d5e6f7-a9b0-1234-def0-bc4567890123",
+  "title": "Aesthetic Wall Calendar",
+  "description": "Minimalist calendar with monthly artwork",
+  "image": "https://i.pinimg.com/736x/4f/5g/6h/4f5g6h7i4f5g6h7i4f5g6h7i4f5g6h7i.jpg",
+  "price": 18,
+  "createdAt": "2025-10-23T13:58:00.000Z"
+},
+{
+  "id": "i5e6f7g8-b0c1-2345-ef01-cd5678901234",
+  "title": "Reusable Water Bottle",
+  "description": "Eco-friendly bottle with temperature control",
+  "image": "https://i.pinimg.com/736x/5g/6h/7i/5g6h7i8j5g6h7i8j5g6h7i8j5g6h7i8j.jpg",
+  "price": 25,
+  "createdAt": "2025-10-23T13:59:00.000Z"
+}
+
+  ]
+}
