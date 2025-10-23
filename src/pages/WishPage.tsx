@@ -44,7 +44,9 @@ const WishPage: React.FC = () => {
     );
 
   return (
+    
     <div className="min-h-screen flex flex-col items-center px-4 py-6 bg-midnight text-white">
+      
       <button
         onClick={() => navigate('/')}
         className="text-accentViolet hover:underline mb-6 text-sm transition"
@@ -97,8 +99,11 @@ const WishPage: React.FC = () => {
           onCancel={() => setShowConfirm(false)}
         />
       )}
+      
     </div>
+    
   );
+  
 };
 
 export default WishPage;

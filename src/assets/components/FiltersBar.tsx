@@ -19,7 +19,7 @@ export const FiltersBar: React.FC<FiltersBarProps> = ({
     <select
       value={sortByDate}
       onChange={(e) => onSortChange('date', e.target.value)}
-      className="w-full sm:w-auto bg-surface text-white border border-borderMuted rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-accentViolet"
+      className="cursor-pointer w-full sm:w-auto bg-surface text-white border border-borderMuted rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-accentViolet"
     >
       <option value="newest">Newest</option>
       <option value="oldest">Oldest</option>
@@ -28,7 +28,7 @@ export const FiltersBar: React.FC<FiltersBarProps> = ({
     <select
       value={sortByPrice}
       onChange={(e) => onSortChange('price', e.target.value)}
-      className="w-full sm:w-auto bg-surface text-white border border-borderMuted rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-accentViolet"
+      className="cursor-pointer w-full sm:w-auto bg-surface text-white border border-borderMuted rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-accentViolet"
     >
       <option value="priceHigh">Price: High to Low</option>
       <option value="priceLow">Price: Low to High</option>

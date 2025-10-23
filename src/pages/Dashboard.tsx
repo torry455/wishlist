@@ -16,20 +16,21 @@ const Dashboard: React.FC = () => {
   const itemsPerPage = 6;
 
 const sortedWishes = useMemo(() => {
-  let sorted = [...wishes];
+  return [...wishes].sort((a, b) => {
+    const dateCompare =
+      sortByDate === 'newest'
+        ? new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+        : new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime();
 
-  if (sortByDate === 'newest') {
-    sorted.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-  } else {
-    sorted.sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
-  }
+    if (dateCompare !== 0) return dateCompare;
 
-  if (sortByPrice === 'priceHigh') {
-    sorted.sort((a, b) => b.price - a.price);
-  } else {
-    sorted.sort((a, b) => a.price - b.price);
-  }
-  return sorted;
+    const priceCompare =
+      sortByPrice === 'priceHigh'
+        ? b.price - a.price
+        : a.price - b.price;
+
+    return priceCompare;
+  });
 }, [wishes, sortByDate, sortByPrice]);
 
 
