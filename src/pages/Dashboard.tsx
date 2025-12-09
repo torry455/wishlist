@@ -19,22 +19,27 @@ const Dashboard: React.FC = () => {
 
 
 const sortedWishes = useMemo(() => {
-  return [...wishes].sort((a, b) => {
-    const dateCompare =
+  const sorted = [...wishes];
+
+  if (sortByDate) {
+    return sorted.sort((a, b) =>
       sortByDate === 'newest'
         ? new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-        : new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime();
+        : new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
+    );
+  }
 
-    if (dateCompare !== 0) return dateCompare;
-
-    const priceCompare =
+  if (sortByPrice) {
+    return sorted.sort((a, b) =>
       sortByPrice === 'priceHigh'
         ? b.price - a.price
-        : a.price - b.price;
+        : a.price - b.price
+    );
+  }
 
-    return priceCompare;
-  });
+  return sorted;
 }, [wishes, sortByDate, sortByPrice]);
+
 
 
   const paginatedWishes = useMemo(() => {
@@ -52,11 +57,19 @@ const sortedWishes = useMemo(() => {
   const [wishToDelete, setWishToDelete] = useState<string | null>(null);
 
 const handleSortChange = (type: 'date' | 'price', value: string) => {
-  console.log('[handleSortChange] ', { type, value });
-  if (type === 'date') setSortByDate(value as 'newest' | 'oldest');
-  if (type === 'price') setSortByPrice(value as 'priceHigh' | 'priceLow');
+  if (type === 'date') {
+    setSortByDate(value as 'newest' | 'oldest');
+    setSortByPrice(null as any);
+  }
+
+  if (type === 'price') {
+    setSortByPrice(value as 'priceHigh' | 'priceLow');
+    setSortByDate(null as any);
+  }
+
   setCurrentPage(1);
 };
+
 
 
   const handleAddWish = () => {

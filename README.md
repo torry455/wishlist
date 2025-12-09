@@ -4,7 +4,7 @@ A responsive CRUD React application for managing personal wishes.
 
 ## Live Demo
 
-🔗 [View on GitHub Pages](https://your-username.github.io/your-repo-name)
+🔗 [View on GitHub Pages](https://torry455.github.io/wishlist)
 
 ## Tech Stack
 

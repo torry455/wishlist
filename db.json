@@ -103,8 +103,7 @@
       "image": "https://i.pinimg.com/736x/9a/ab/bc/9aabbc2e9aabbc2e9aabbc2e9aabbc2e.jpg",
       "price": 34,
       "createdAt": "2025-10-23T09:37:29.176Z"
-    }
-,
+    },
     {
   "id": "e1a2b3c4-d5f6-7890-abcd-ef1234567890",
   "title": "Bluetooth Headphones",
@@ -112,39 +111,39 @@
   "image": "https://i.pinimg.com/736x/1c/2d/3e/1c2d3e4f1c2d3e4f1c2d3e4f1c2d3e4f.jpg",
   "price": 120,
   "createdAt": "2025-10-23T13:55:00.000Z"
-},
-{
-  "id": "f2b3c4d5-e6f7-8901-bcde-fa2345678901",
-  "title": "Digital Drawing Tablet",
-  "description": "A compact tablet for digital illustration and design",
-  "image": "https://i.pinimg.com/736x/2d/3e/4f/2d3e4f5g2d3e4f5g2d3e4f5g2d3e4f5g.jpg",
-  "price": 250,
-  "createdAt": "2025-10-23T13:56:00.000Z"
-},
-{
-  "id": "g3c4d5e6-f7a8-9012-cdef-ab3456789012",
-  "title": "Korean Skincare Set",
-  "description": "Gentle and hydrating skincare essentials",
-  "image": "https://i.pinimg.com/736x/3e/4f/5g/3e4f5g6h3e4f5g6h3e4f5g6h3e4f5g6h.jpg",
-  "price": 60,
-  "createdAt": "2025-10-23T13:57:00.000Z"
-},
-{
-  "id": "h4d5e6f7-a9b0-1234-def0-bc4567890123",
-  "title": "Aesthetic Wall Calendar",
-  "description": "Minimalist calendar with monthly artwork",
-  "image": "https://i.pinimg.com/736x/4f/5g/6h/4f5g6h7i4f5g6h7i4f5g6h7i4f5g6h7i.jpg",
-  "price": 18,
-  "createdAt": "2025-10-23T13:58:00.000Z"
-},
-{
-  "id": "i5e6f7g8-b0c1-2345-ef01-cd5678901234",
-  "title": "Reusable Water Bottle",
-  "description": "Eco-friendly bottle with temperature control",
-  "image": "https://i.pinimg.com/736x/5g/6h/7i/5g6h7i8j5g6h7i8j5g6h7i8j5g6h7i8j.jpg",
-  "price": 25,
-  "createdAt": "2025-10-23T13:59:00.000Z"
-}
+  },
+  {
+    "id": "f2b3c4d5-e6f7-8901-bcde-fa2345678901",
+    "title": "Digital Drawing Tablet",
+    "description": "A compact tablet for digital illustration and design",
+    "image": "https://i.pinimg.com/736x/2d/3e/4f/2d3e4f5g2d3e4f5g2d3e4f5g2d3e4f5g.jpg",
+    "price": 250,
+    "createdAt": "2025-10-23T13:56:00.000Z"
+  },
+  {
+    "id": "g3c4d5e6-f7a8-9012-cdef-ab3456789012",
+    "title": "Korean Skincare Set",
+    "description": "Gentle and hydrating skincare essentials",
+    "image": "https://i.pinimg.com/736x/3e/4f/5g/3e4f5g6h3e4f5g6h3e4f5g6h3e4f5g6h.jpg",
+    "price": 60,
+    "createdAt": "2025-10-23T13:57:00.000Z"
+  },
+  {
+    "id": "h4d5e6f7-a9b0-1234-def0-bc4567890123",
+    "title": "Aesthetic Wall Calendar",
+    "description": "Minimalist calendar with monthly artwork",
+    "image": "https://i.pinimg.com/736x/4f/5g/6h/4f5g6h7i4f5g6h7i4f5g6h7i4f5g6h7i.jpg",
+    "price": 18,
+    "createdAt": "2025-10-23T13:58:00.000Z"
+  },
+  {
+    "id": "i5e6f7g8-b0c1-2345-ef01-cd5678901234",
+    "title": "Reusable Water Bottle",
+    "description": "Eco-friendly bottle with temperature control",
+    "image": "https://i.pinimg.com/736x/5g/6h/7i/5g6h7i8j5g6h7i8j5g6h7i8j5g6h7i8j.jpg",
+    "price": 25,
+    "createdAt": "2025-10-23T13:59:00.000Z"
+  }
 
   ]
 }
